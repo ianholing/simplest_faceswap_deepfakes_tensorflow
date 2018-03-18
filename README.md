@@ -9,9 +9,9 @@ What I understand about this model is:
 * When all the system is trained you are able to switch decoders and draw a face of Cage with input of Trump
 
 Is that incorrect?
-I made exactly that process in a really simple way, but the problem is that my autoencoders do not learn how to draw faces, instead it looks that they learn how to compress and decompress an image focusing on the colors, So.. ![in the last step (when I check the results) of my notebook](https://github.com/ianholing/simplest_faceswap_deepfakes_tensorflow/blob/master/simple_deepfakes_faceswap.ipynb) I expected to see Trump but the same Cage was the output.
+I made exactly that process in a really simple way, but the problem is that my autoencoders do not learn how to draw faces, instead it looks that they learn how to compress and decompress an image focusing on the colors, So.. [in the last step (when I check the results) of my notebook](https://github.com/ianholing/simplest_faceswap_deepfakes_tensorflow/blob/master/simple_deepfakes_faceswap.ipynb) I expected to see Trump but the same Cage was the output.
 
-![https://github.com/ianholing/simplest_faceswap_deepfakes_tensorflow/blob/master/git_images/cage_fail.png?raw=true]
+![CAGE_NOT_TRUMPIFICATED](https://github.com/ianholing/simplest_faceswap_deepfakes_tensorflow/blob/master/git_images/cage_fail.png?raw=true)
 
 I think Decoder_A and Decoder_B learns the same uncompress way :(
 
