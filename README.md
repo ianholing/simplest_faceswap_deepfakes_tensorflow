@@ -8,13 +8,8 @@ What I understand about this model is:
 * Each autoencoder have it's own decoder (Decoder_A and Decoder_B) which is intended to learn how to draw a different face (In my case Trump and Cage faces)
 * When all the system is trained you are able to switch decoders and draw a face of Cage with input of Trump
 
-Is that incorrect?
-I made exactly that process in a really simple way, but the problem is that my autoencoders do not learn how to draw faces, instead it looks that they learn how to compress and decompress an image focusing on the colors, So.. [in the last step (when I check the results) of my notebook](https://github.com/ianholing/simplest_faceswap_deepfakes_tensorflow/blob/master/simple_deepfakes_faceswap.ipynb) I expected to see Trump but the same Cage was the output.
+It's starting to work now, but it looks like a bit underfitting or undertrained. I assume I want to keep it simple, but I think I can get better results without make it much more difficult  [You can check my ATM results in the Jupyter Notebook](https://github.com/ianholing/simplest_faceswap_deepfakes_tensorflow/blob/master/simple_deepfakes_faceswap.ipynb) I expected to improve it soon when I had some time, any help would be appreciated.
 
-![CAGE_NOT_TRUMPIFICATED](https://github.com/ianholing/simplest_faceswap_deepfakes_tensorflow/blob/master/git_images/cage_fail.png?raw=true)
-
-I think Decoder_A and Decoder_B learns the same uncompress way :(
-
-What am I doing wrong? This is a sketch of how it is done:
+![CAGE_TRUMPIFICATED](https://github.com/ianholing/simplest_faceswap_deepfakes_tensorflow/blob/master/git_images/cage_works_0.1.png?raw=true)
 
 ![FINAL DATASET 1](git_images/structure.jpg)
